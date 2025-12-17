@@ -4,3 +4,5 @@ john
 odin
 zeus
 hera
+hades
+posidon

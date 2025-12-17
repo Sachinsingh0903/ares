@@ -10,4 +10,4 @@ WORKDIR /app
 
 ENTRYPOINT [ "python" ]
 
-CMD ["app.py"]
+CMD [ "app.py" ]
