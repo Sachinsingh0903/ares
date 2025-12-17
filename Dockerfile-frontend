@@ -1,0 +1,11 @@
+FROM node:11.6-slim
+
+ADD frontend /app
+
+WORKDIR /app
+
+RUN npm install
+
+ENTRYPOINT [ "npm" ]
+
+CMD [ "start" ]
